@@ -1,8 +1,17 @@
+# ==============================================================================
+# Document Copy-Move Forgery Detection (CMFD) Pipeline Dependencies
+# Stack: OpenCV (SIFT/FLANN) + Scikit-Learn (DBSCAN) + NumPy + Streamlit
+# ==============================================================================
+
 # Core Numerical & Vision Libraries
 numpy>=1.24.0,<2.0.0
 opencv-contrib-python>=4.8.0.76
 scikit-learn>=1.3.0
 scipy>=1.11.0
 matplotlib>=3.7.0
+pillow>=9.5.0
 tqdm>=4.66.0
 kaggle>=1.5.16
+
+# Interactive Web Application & Frontend Showcase
+streamlit>=1.28.0
